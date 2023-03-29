@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Update the package list
+
+sudo apt-get update
+
+# Install Nginx
+sudo apt-get install -y nginx
+
+# Configure Nginx to listen on port 80 and display "Hello World!" when queried with a GET request
+echo "Hello World!" | sudo tee /var/www/html/index.html
+sudo sed -i "s|root /var/www/html;|root /var/www/html;\n\tindex index.html;|" /etc/nginx/sites-available/default
+sudo service nginx restart
