@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Script displays 'To infinity and beyond' indefinitely, requirement: In between each iteration of the loop, add a sleep 2
+sigterm_h(){
+echo "I am invincible!!!" 
+exit 0
+}
+trap 'sigterm_h' SIGTERM
+while true;
+do
+    echo "To infinity and beyond"
+    sleep 2 || exit 1
+done
