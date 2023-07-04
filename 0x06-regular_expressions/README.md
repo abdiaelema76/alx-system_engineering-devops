@@ -9,3 +9,6 @@ This Ruby script aims to find the appropriate regular expressiones that will mat
 
 ## Repetition Token #1
 Ruby script that accepts one argument and pass it to a regular expression matching method hb?t?n the ? means zero or more of the given character
+
+## 3. Repetition Token #2
+A  regular expression that will match the hbt{1,5}n case
