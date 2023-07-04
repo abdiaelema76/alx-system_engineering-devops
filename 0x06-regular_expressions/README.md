@@ -12,3 +12,5 @@ Ruby script that accepts one argument and pass it to a regular expression matchi
 
 ## 3. Repetition Token #2
 A  regular expression that will match the hbt{1,5}n case
+## 4. Repetition Token #3
+regular expression that will match the hbt*n  case, * mean zero or more of a character
