@@ -4,14 +4,14 @@
 
 ## Explanation of infrastructure elements:
 
-##Firewall:
+## Firewall:
 firewalls are added to protect your network. They act as a barrier between trusted internal networks and untrusted external networks.
 
-2. SSL certificate for HTTPS:
-Added an SSL certificate to allow secure communication over HTTPS for the www.foobar domain.Mobile HTTPS encrypts data sent between the client's browser and the web server to ensure privacy and protect it from eavesdropping and data tampering.
+## SSL certificate for HTTPS:
+Added an SSL certificate to allow secure communication over HTTPS for the www.foobar domain. Mobile HTTPS encrypts data sent between the client's browser and the web server to ensure privacy and protect it from eavesdropping and data tampering.
 
 ## Monitoring:
-Monitoring is an important aspect of infrastructure to ensure performance, availability and timely detection of potential problems. Monitoring helps identify bottlenecks, performance degradation, and security incidents, enabling proactive problem resolution and maintaining high system availability.
+Monitoring is an important aspect of infrastructure to ensure performance, availability, and timely detection of potential problems. Monitoring helps identify bottlenecks, performance degradation, and security incidents, enabling proactive problem resolution and maintaining high system availability.
 
 ## Infrastructure issues:
 
