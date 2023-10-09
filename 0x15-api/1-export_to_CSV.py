@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Using https://jsonplaceholder.typicode.com gathers data from API and exports it to CSV file
+Using https://jsonplaceholder.typicode.com
+gathers data from API and exports it to CSV file
 Implemented using recursion
 """
 import re
@@ -30,4 +31,3 @@ if __name__ == '__main__':
                             todo.get('title')
                         )
                     )
-
